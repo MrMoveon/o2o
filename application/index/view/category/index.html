@@ -1,0 +1,210 @@
+<div class="wrap-container list-wrap">
+    <div class="wrap-group">
+        <div class="layui-form">
+            <div class="layui-form-item">
+                <div class="layui-inline">
+                    <button class="layui-btn layui-btn-small layui-btn-normal addBtn" id="category-add-btn"><i class="layui-icon">&#xe654;</i></button>
+                    <button class="layui-btn layui-btn-small layui-btn-danger delBtn"><i class="layui-icon">&#xe640;</i></button>
+                </div>
+                <div class="layui-inline">
+                    <input type="text" name="title" required lay-verify="required" placeholder="请输入标题" autocomplete="off" class="layui-input">
+                </div>
+                <div class="layui-inline">
+                    <select name="state" lay-filter="state">
+                        <option value="">请选择一个状态</option>
+                        <option value="010">正常</option>
+                        <option value="021">停止</option>
+                        <option value="0571">删除</option>
+                    </select>
+                </div>
+                <div class="layui-inline">
+                    <div class="layui-input-inline">
+                        <input type="text" name="date" id="date" lay-verify="date" placeholder="yyyy-mm-dd" autocomplete="off" class="layui-input" onclick="layui.laydate({elem: this})">
+                    </div>
+                    <button class="layui-btn layui-btn-normal">搜索</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="layui-form">
+        <table class="layui-table" lay-even lay-skin="nob">
+            <colgroup>
+                <col width="50">
+                <col width="50">
+                <col width="100">
+                <col>
+                <col width="150">
+                <col width="150">
+                <col width="80">
+                <col width="150">
+            </colgroup>
+            <thead>
+            <tr>
+                <th><input type="checkbox" name="" lay-skin="primary" lay-filter="allChoose"></th>
+                <th>ID</th>
+                <th>排序</th>
+                <th>名称</th>
+                <th>创建时间</th>
+                <th>修改时间</th>
+                <th>状态</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><input type="checkbox" name="" lay-skin="primary"></td>
+                <td>1</td>
+                <td><input type="text" name="title"  autocomplete="off" class="layui-input" value="0"></td>
+                <td>玩具</td>
+                <td>1989-10-14</td>
+                <td>1989-10-14</td>
+                <td><button class="layui-btn layui-btn-mini layui-btn-normal">正常</button></td>
+                <td>
+                    <div class="layui-inline">
+                        <button class="layui-btn layui-btn-small layui-btn-normal "><i class="layui-icon">&#xe642;</i></button>
+                        <button class="layui-btn layui-btn-small layui-btn-danger del-btn"><i class="layui-icon">&#xe640;</i></button>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" lay-skin="primary"></td>
+                <td>2</td>
+                <td><input type="text" name="title"  autocomplete="off" class="layui-input" value="0"></td>
+                <td>厨具</td>
+                <td>1989-10-14</td>
+                <td>1989-10-14</td>
+                <td><button class="layui-btn layui-btn-mini layui-btn-warm">停止</button></td>
+                <td>
+                    <div class="layui-inline">
+                        <button class="layui-btn layui-btn-small layui-btn-normal"><i class="layui-icon">&#xe642;</i></button>
+                        <button class="layui-btn layui-btn-small layui-btn-danger"><i class="layui-icon">&#xe640;</i></button>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" lay-skin="primary"></td>
+                <td>2</td>
+                <td><input type="text" name="title"  autocomplete="off" class="layui-input" value="0"></td>
+                <td>厨具</td>
+                <td>1989-10-14</td>
+                <td>1989-10-14</td>
+                <td><button class="layui-btn layui-btn-mini layui-btn-warm">停止</button></td>
+                <td>
+                    <div class="layui-inline">
+                        <button class="layui-btn layui-btn-small layui-btn-normal"><i class="layui-icon">&#xe642;</i></button>
+                        <button class="layui-btn layui-btn-small layui-btn-danger"><i class="layui-icon">&#xe640;</i></button>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" lay-skin="primary"></td>
+                <td>2</td>
+                <td><input type="text" name="title"  autocomplete="off" class="layui-input" value="0"></td>
+                <td>厨具</td>
+                <td>1989-10-14</td>
+                <td>1989-10-14</td>
+                <td><button class="layui-btn layui-btn-mini layui-btn-warm">停止</button></td>
+                <td>
+                    <div class="layui-inline">
+                        <button class="layui-btn layui-btn-small layui-btn-normal"><i class="layui-icon">&#xe642;</i></button>
+                        <button class="layui-btn layui-btn-small layui-btn-danger"><i class="layui-icon">&#xe640;</i></button>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" lay-skin="primary"></td>
+                <td>2</td>
+                <td><input type="text" name="title"  autocomplete="off" class="layui-input" value="0"></td>
+                <td>厨具</td>
+                <td>1989-10-14</td>
+                <td>1989-10-14</td>
+                <td><button class="layui-btn layui-btn-mini layui-btn-warm">停止</button></td>
+                <td>
+                    <div class="layui-inline">
+                        <button class="layui-btn layui-btn-small layui-btn-normal"><i class="layui-icon">&#xe642;</i></button>
+                        <button class="layui-btn layui-btn-small layui-btn-danger"><i class="layui-icon">&#xe640;</i></button>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" lay-skin="primary"></td>
+                <td>2</td>
+                <td><input type="text" name="title"  autocomplete="off" class="layui-input" value="0"></td>
+                <td>厨具</td>
+                <td>1989-10-14</td>
+                <td>1989-10-14</td>
+                <td><button class="layui-btn layui-btn-mini layui-btn-warm">停止</button></td>
+                <td>
+                    <div class="layui-inline">
+                        <button class="layui-btn layui-btn-small layui-btn-normal"><i class="layui-icon">&#xe642;</i></button>
+                        <button class="layui-btn layui-btn-small layui-btn-danger"><i class="layui-icon">&#xe640;</i></button>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" lay-skin="primary"></td>
+                <td>2</td>
+                <td><input type="text" name="title"  autocomplete="off" class="layui-input" value="0"></td>
+                <td>厨具</td>
+                <td>1989-10-14</td>
+                <td>1989-10-14</td>
+                <td><button class="layui-btn layui-btn-mini layui-btn-warm">停止</button></td>
+                <td>
+                    <div class="layui-inline">
+                        <button class="layui-btn layui-btn-small layui-btn-normal"><i class="layui-icon">&#xe642;</i></button>
+                        <button class="layui-btn layui-btn-small layui-btn-danger"><i class="layui-icon">&#xe640;</i></button>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" lay-skin="primary"></td>
+                <td>2</td>
+                <td><input type="text" name="title"  autocomplete="off" class="layui-input" value="0"></td>
+                <td>厨具</td>
+                <td>1989-10-14</td>
+                <td>1989-10-14</td>
+                <td><button class="layui-btn layui-btn-mini layui-btn-warm">停止</button></td>
+                <td>
+                    <div class="layui-inline">
+                        <button class="layui-btn layui-btn-small layui-btn-normal"><i class="layui-icon">&#xe642;</i></button>
+                        <button class="layui-btn layui-btn-small layui-btn-danger"><i class="layui-icon">&#xe640;</i></button>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" lay-skin="primary"></td>
+                <td>2</td>
+                <td><input type="text" name="title"  autocomplete="off" class="layui-input" value="0"></td>
+                <td>厨具</td>
+                <td>1989-10-14</td>
+                <td>1989-10-14</td>
+                <td><button class="layui-btn layui-btn-mini layui-btn-warm">停止</button></td>
+                <td>
+                    <div class="layui-inline">
+                        <button class="layui-btn layui-btn-small layui-btn-normal"><i class="layui-icon">&#xe642;</i></button>
+                        <button class="layui-btn layui-btn-small layui-btn-danger"><i class="layui-icon">&#xe640;</i></button>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" lay-skin="primary"></td>
+                <td>2</td>
+                <td><input type="text" name="title"  autocomplete="off" class="layui-input" value="0"></td>
+                <td>厨具</td>
+                <td>1989-10-14</td>
+                <td>1989-10-14</td>
+                <td><button class="layui-btn layui-btn-mini layui-btn-warm">停止</button></td>
+                <td>
+                    <div class="layui-inline">
+                        <button class="layui-btn layui-btn-small layui-btn-normal"><i class="layui-icon">&#xe642;</i></button>
+                        <button class="layui-btn layui-btn-small layui-btn-danger"><i class="layui-icon">&#xe640;</i></button>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <div id="page" style="text-align: center;"></div>
+    </div>
+</div>
+
+<script src="__STATIC__/js/category.js"></script>
