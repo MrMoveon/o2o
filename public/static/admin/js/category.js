@@ -54,9 +54,20 @@ layui.use(['form', 'jquery', 'laydate','laypage','dialog'], function() {
     });
     form.render();
     //分页
+    // laypage({
+    //     cont: 'page'
+    //     ,pages: 10
+    //     ,skin: '#1E9FFF'
+    // });
+    $.ajax({
+        method:'get',
+        url:
+    })
     laypage({
         cont: 'page'
-        ,pages: 10
-        ,skin: '#1E9FFF'
+        ,pages: Math.ceil(data.length/nums) //得到总页数
+        ,jump: function(obj){
+            document.getElementById('biuuu_city_list').innerHTML = render(obj.curr);
+        }
     });
 });
