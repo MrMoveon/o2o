@@ -1,14 +1,14 @@
 /**
  * Created by asus on 2017/3/20.
  */
-layui.use(['form', 'jquery', 'laydate','laypage','dialog'], function() {
+layui.use(['form', 'jquery', 'laydate','laypage','dialog','formate'], function() {
     var form = layui.form(),
         layer = layui.layer,
         $ = layui.jquery,
         laypage=layui.laypage,
         laydate = layui.laydate,
-        dialog = layui.dialog;
-
+        dialog = layui.dialog,
+         formate=layui.formate;
 
     //删除
     $('.del-btn').on('click',function(){
@@ -36,7 +36,7 @@ layui.use(['form', 'jquery', 'laydate','laypage','dialog'], function() {
         });
     })
     $('#category-add-btn').on('click',function(){
-        dialog.page("生活分类添加",scope.categoryAdd,w="700px",h="330px");
+        dialog.page("生活分类添加",categoryScope.categoryAdd,w="700px",h="330px");
     })
     //全选
     form.on('checkbox(allChoose)', function(data) {
@@ -53,21 +53,57 @@ layui.use(['form', 'jquery', 'laydate','laypage','dialog'], function() {
         form.render('select');
     });
     form.render();
-    //分页
-    // laypage({
-    //     cont: 'page'
-    //     ,pages: 10
-    //     ,skin: '#1E9FFF'
-    // });
-    $.ajax({
-        method:'get',
-        url:
-    })
-    laypage({
-        cont: 'page'
-        ,pages: Math.ceil(data.length/nums) //得到总页数
-        ,jump: function(obj){
-            document.getElementById('biuuu_city_list').innerHTML = render(obj.curr);
+
+    /*ajax分页*/
+    var pages=0;
+    var data;
+    $.get(categoryScope.categoryPages,function (res1) {
+        //获取分页数
+        pages=res1.data.pages;
+        var index=layer.load(2);
+        setTimeout(function () {
+            laypage({
+                cont: 'page'
+                ,pages: pages //得到总页数
+                ,jump: function(obj){
+                    $.post(categoryScope.categoryList,{current:obj.curr},function (res) {
+                        //获取的数据
+                        data=res.data.list;
+                        //填充数据
+                        document.getElementById('category-list').innerHTML = render(obj.curr,data);
+                        //
+                        layer.close(index);
+                        form.render('checkbox');
+                    },'json');
+
+                }
+            });
+        },100)
+
+    },'json')
+
+    //模拟渲染
+    var render = function(curr,data){
+        //此处只是演示，实际场景通常是返回已经当前页已经分组好的数据
+        var str = '';
+        for(var i in data){
+            str+='<tr>'
+                +'<td><input type="checkbox" name="" lay-skin="primary"></td>'
+                +'<td>'+data[i].id+'</td>'
+                +'<td><input type="text" name="title"  autocomplete="off" class="layui-input" value="0"></td>'
+                +'<td>'+data[i].name+'</td>'
+                +'<td>'+formate.ge_time_format(data[i].create_time)+'</td>'
+                +'<td>'+formate.ge_time_format(data[i].update_time)+'</td>'
+                +'<td>'+data[i].status+'</td>'
+                +'<td>'
+                +'<div class="layui-inline">'
+                +'<button class="layui-btn layui-btn-small layui-btn-normal "><i class="layui-icon">&#xe642;</i></button>'
+                +'<button class="layui-btn layui-btn-small layui-btn-danger del-btn"><i class="layui-icon">&#xe640;</i></button>'
+                +'</div>'
+                +'</td>'
+                +'</tr>';
         }
-    });
+        return str;
+    };
+
 });
