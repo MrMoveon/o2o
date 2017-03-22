@@ -23,7 +23,14 @@ class Category extends Controller
             'category'=>$category
         ]);
     }
+
+    /**
+     * @return array|void   添加数据
+     */
     public function save(){
+      if(!request()->isPost()){
+          return $this->error('请求不合法');
+      }
       $data=input('post.');
       $validate=validate('Category');
       if(!$validate->scene('add')->check($data)){
@@ -36,13 +43,21 @@ class Category extends Controller
       }
     }
 
-    public function ajaxPage($current=1){
-        //一页多少行
-        $pageNum=2;
-        //总数
-        $count=$this->obj->getCount();
-        //分页数
-        $pages=ceil($count/$pageNum);
+    /**
+     * @return mixed    获取分页数
+     */
+    public function pages(){
+        return show(1,'请求成功',['pages'=>$this->obj->getPages()]);
+    }
+
+    /**
+     * ajax分页
+     */
+    public function ajaxPage(){
+        if(!request()->isAjax()){
+            return $this->error('请求不合法');
+        }
+        $current=input('post.current',1,'intval');
 
 
         //查询条件
@@ -56,12 +71,10 @@ class Category extends Controller
             'listorder'=>'desc'
         ];
         //获取分类数据
-        $category=$this->obj->getCategory($current,$pageNum,$conditions,$order);
-        $category['count']=$count;
-
-
+        $category=$this->obj->getCategory($current,$conditions,$order);
+        $data['list']=$category;
         //返回json
-        return show(1,'请求成功',$category);
+        return show(1,'请求成功',$data);
     }
 
 }

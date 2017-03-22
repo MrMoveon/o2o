@@ -46,7 +46,132 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
+<<<<<<< HEAD
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+<<<<<<< HEAD
+      <file leaf-file-name="Category.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/index/controller/Category.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/index/controller/Index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+=======
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/index/view/index/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="605">
+              <caret line="37" column="4" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
+>>>>>>> origin/master
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/common.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+              <folding>
+                <element signature="e#6#80#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Category.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/common/model/Category.php">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="175">
+              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Category.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/index/validate/Category.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="1" />
+=======
+            <state relative-caret-position="443">
+              <caret line="38" column="74" lean-forward="false" selection-start-line="38" selection-start-column="74" selection-end-line="38" selection-end-column="74" />
+>>>>>>> origin/master
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Query.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinkphp/library/think/db/Query.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="1272" column="34" lean-forward="false" selection-start-line="1272" selection-start-column="30" selection-end-line="1272" selection-end-column="34" />
+              <folding>
+                <marker date="1490058883376" expanded="true" signature="9653:9693" ph="SELECT * FRO... ${$this-&gt;getTable()}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/index/view/category/add.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1547">
+              <caret line="91" column="7" lean-forward="false" selection-start-line="91" selection-start-column="7" selection-end-line="91" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="category.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/static/admin/js/category.js">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="825">
+              <caret line="38" column="51" lean-forward="true" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+=======
+            <state relative-caret-position="996">
+              <caret line="63" column="12" lean-forward="false" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+              <caret line="62" column="21" lean-forward="false" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+>>>>>>> origin/master
+              <folding>
+                <element signature="e#0#40#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="o2o.o2o_category" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/9bb2d7b7/1a8ee238-3aee-487c-a087-cc711c21edcc/o2o.o2o_category">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+=======
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+>>>>>>> origin/master
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -464,20 +589,43 @@
       <updated>1489928270854</updated>
       <workItem from="1489928274231" duration="7679000" />
       <workItem from="1490009389861" duration="12062000" />
+<<<<<<< HEAD
+      <workItem from="1490022268575" duration="1188000" />
+=======
       <workItem from="1490022268575" duration="922000" />
       <workItem from="1490058911256" duration="13852000" />
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
       <workItem from="1490151099259" duration="35000" />
+>>>>>>> origin/master
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="20929000" />
+=======
+    <option name="totallyTimeSpent" value="34515000" />
+>>>>>>> origin/master
+=======
     <option name="totallyTimeSpent" value="34550000" />
+>>>>>>> origin/master
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15182403" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15351813" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> origin/master
+=======
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15511727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> origin/master
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21162046" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -690,6 +838,43 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/hosts" />
+<<<<<<< HEAD
+    <entry file="file://D:/work/layuiAdmin/admin/index/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="273" column="7" lean-forward="true" selection-start-line="209" selection-start-column="4" selection-end-line="273" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/category/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="106" lean-forward="false" selection-start-line="5" selection-start-column="90" selection-end-line="5" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/layuiAdmin/admin/index/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="52" column="12" lean-forward="true" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/mf-cms_template-master/cms_template/static/js/dialog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1500">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="37" column="4" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+=======
     <entry file="file://$PROJECT_DIR$/application/index/controller/Index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -701,6 +886,7 @@
     <entry file="file://D:/work/layuiAdmin/admin/index/list.html" />
     <entry file="file://D:/work/layuiAdmin/admin/index/add.html" />
     <entry file="file://D:/work/mf-cms_template-master/cms_template/static/js/dialog.js" />
+>>>>>>> origin/master
     <entry file="file://$PROJECT_DIR$/public/static/admin/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -727,6 +913,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="202" column="33" lean-forward="false" selection-start-line="202" selection-start-column="23" selection-end-line="202" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -777,14 +964,43 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/application/index/view/category/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="723">
+          <caret line="91" column="7" lean-forward="true" selection-start-line="91" selection-start-column="7" selection-end-line="91" selection-end-column="7" />
+=======
     <entry file="file://$PROJECT_DIR$/thinkphp/library/think/paginator/driver/Bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="92" column="27" lean-forward="false" selection-start-line="92" selection-start-column="27" selection-end-line="92" selection-end-column="27" />
+<<<<<<< HEAD
+>>>>>>> origin/master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/.git/config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+=======
+    <entry file="file://$PROJECT_DIR$/application/common.php">
+=======
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/index/controller/Category.php">
+>>>>>>> origin/master
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="664">
           <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
@@ -806,6 +1022,13 @@
           <folding />
         </state>
       </provider>
+<<<<<<< HEAD
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> origin/master
+          <folding />
+=======
     </entry>
     <entry file="file://$PROJECT_DIR$/application/common.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -814,17 +1037,48 @@
           <folding>
             <element signature="e#6#80#0#PHP" expanded="true" />
           </folding>
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/public/static/admin/js/category.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="38" column="51" lean-forward="true" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/common/model/Category.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+=======
+    <entry file="file://$PROJECT_DIR$/application/common/model/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
           <caret line="38" column="74" lean-forward="false" selection-start-line="38" selection-start-column="74" selection-end-line="38" selection-end-column="74" />
+>>>>>>> origin/master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/application/index/validate/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="1" />
+=======
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+>>>>>>> origin/master
+=======
     <entry file="file://$PROJECT_DIR$/thinkphp/library/think/db/Query.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -839,13 +1093,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="766">
           <caret line="91" column="7" lean-forward="false" selection-start-line="91" selection-start-column="7" selection-end-line="91" selection-end-column="7" />
+>>>>>>> origin/master
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/admin/js/category.js">
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Index.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="425">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="300">
+          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+=======
+        <state relative-caret-position="996">
+=======
         <state relative-caret-position="622">
+>>>>>>> origin/master
           <caret line="63" column="12" lean-forward="false" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
           <caret line="62" column="21" lean-forward="false" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
           <folding>
@@ -860,9 +1131,18 @@
           <filtering enabled="true" />
         </state>
       </provider>
+<<<<<<< HEAD
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="37" column="4" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
+>>>>>>> origin/master
+=======
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> origin/master
           <folding />
         </state>
       </provider>
